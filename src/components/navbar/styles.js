@@ -4,6 +4,7 @@ export const Container = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 15vh;
 ` 
 
 export const ListContainer = styled.ul`

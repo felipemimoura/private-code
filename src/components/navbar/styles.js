@@ -5,6 +5,7 @@ export const Container = styled.nav`
     justify-content: space-between;
     align-items: center;
     height: 15vh;
+    padding: 15px;
 ` 
 
 export const ListContainer = styled.ul`

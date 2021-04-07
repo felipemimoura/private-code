@@ -7,7 +7,7 @@ const Button = () => {
             <S.Button>
                 PlayStore
             </S.Button>
-            <S.Button props>
+            <S.Button appstore>
                 AppStore
             </S.Button>
             </>

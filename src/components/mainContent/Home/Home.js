@@ -6,14 +6,14 @@ import * as S from './styles'
 export const Home = () => {
     return (
         <S.Container>
-            <S.SubTitle>Food App</S.SubTitle>
+            <S.Wrapper>
+            <S.SubTitle food>Food App</S.SubTitle>
             <S.Title>Why stay hungry when <br></br>you can order form Bella Onojie</S.Title>
-            <h4>Download the bella onoje’s food app now on</h4>
+            <S.SubTitle>Download the bella onoje’s food app now on</S.SubTitle>
             <div>
-            <Button >PlayStore</Button>
-           
-
+                <Button/>
             </div>
+            </S.Wrapper>
         </S.Container>
     )
 }

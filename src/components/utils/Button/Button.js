@@ -4,7 +4,11 @@ import * as S from "./styles";
 const Button = ({ children, apple, footer }) => {
   if (footer) {
     if (apple) {
-      return <S.Button footer apple>{children}</S.Button>;
+      return (
+        <S.Button footer apple>
+          {children}
+        </S.Button>
+      );
     } else {
       return <S.Button footer>{children}</S.Button>;
     }

@@ -2,12 +2,19 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 40%;
+  @media(max-width: 800px){
+    width:100vw;
+    text-align:center
+  }
 `;
 
 export const Image = styled.img`
-  width: 40vw;
+  width: 50vw;
+  @media(max-width: 800px){
+    width:100vw;
+   
+  }
 `
-
 export const SubTitle = styled.h3`
   color: #fa4a0c;
   font-size: 24px;
@@ -15,6 +22,7 @@ export const SubTitle = styled.h3`
   font-weight: bold;
   letter-spacing: 0.1px;
   margin-bottom: 17px;
+
 `;
 
 export const Title = styled.h2`

@@ -5,7 +5,6 @@ import * as S from './styles'
 export const Index = () => {
     return (
         <S.Container>
-            {/* <S.Wrappper> */}
             <img src={logo}  alt="Logo do Bella Olonje"/>
             <S.ListContainer>
                 <S.ListItem>home</S.ListItem>
@@ -14,7 +13,7 @@ export const Index = () => {
                 <S.ListItem>Contact</S.ListItem>
             </S.ListContainer>
 
-            {/* </S.Wrappper> */}
+        
         </S.Container>
     )
 }

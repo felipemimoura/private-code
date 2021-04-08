@@ -1,12 +1,14 @@
-import React from 'react'
-import { Index } from './navbar/Index'
+import React from "react";
+import useViewport from "../Hooks/useViewport";
+import BugerMenu from "./burgerMenu/BugerMenu";
+import { Index } from "./navbar/Index";
 
 const Header = () => {
-    return (
-        <header>
-            <Index />
-        </header>
-    )
-}
+  const { width } = useViewport();
 
-export default Header
+  const breakpoint = 800;
+
+  return width < breakpoint ? <BugerMenu /> : <Index />;
+};
+
+export default Header;

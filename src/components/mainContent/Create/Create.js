@@ -6,7 +6,7 @@ import login from "../../../Assets/login.png";
 const Create = () => {
   return (
     <Container>
-      <img src={login} alt="Image da tela de login do aplicado" />
+      <S.Image src={login} alt="Image da tela de login do aplicado" />
       <S.Wrapper>
         <S.SubTitle>Create an account</S.SubTitle>
         <S.Title>Create/Login to an existing account to get started</S.Title>

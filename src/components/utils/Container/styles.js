@@ -4,6 +4,6 @@ export const Container = styled.article`
     display: flex;
     flex-direction: ${props => props.left ? "row-reverse": "row"};
     align-items: center;
-    justify-content: space-evenly
+    justify-content: space-around;
 
 `

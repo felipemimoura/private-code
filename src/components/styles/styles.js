@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  width: 50%;
+  width: 40%;
 `;
+
+export const Image = styled.img`
+  width: 40vw;
+`
 
 export const SubTitle = styled.h3`
   color: #fa4a0c;

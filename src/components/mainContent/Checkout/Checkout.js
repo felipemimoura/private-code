@@ -6,7 +6,7 @@ import payment from "../../../Assets/payment.png";
 const Checkout = () => {
   return (
     <Container>
-      <img src={payment} alt="Image da tela de pagamento do aplicativo" />
+      <S.Image src={payment} alt="Image da tela de pagamento do aplicativo" />
       <S.Wrapper>
         <S.SubTitle>Checkout</S.SubTitle>
         <S.Title>When you done check out and get it delivered.</S.Title>

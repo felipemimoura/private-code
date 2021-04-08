@@ -2,10 +2,11 @@ import styled from 'styled-components'
 
 export const Container = styled.nav`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 15vh;
     padding: 15px;
+    margin-bottom: 10px; 
 ` 
 
 export const ListContainer = styled.ul`

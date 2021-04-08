@@ -1,11 +1,11 @@
 import styled from 'styled-components'
-import firtImage from '../../../Assets/fristImage.png'
+import download from '../../../Assets/footerimage.png'
 
 export const Container = styled.section`
     width: 100%;
     height: 70vh;
     border: 1px solid red;
-    background: url(${firtImage})  no-repeat;
+    background: url(${download})  no-repeat;
     background-size: cover;
  ` 
 
@@ -18,19 +18,19 @@ export const Wrapper = styled.div`
 `
 
 export const Title = styled.h1`
-    color: white;
-    font-size: 58px;
-    line-height: 80px;
-    margin:  0 auto;
-    width: 75vw;
-    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2;
+    font-weight: bold;
+
 `
 
-export const SubTitle = styled.h3`
+export const Paragraph = styled.p`
+    color: #Fff;
     font-size: 24px;
-    line-height:36px;
-    font-weight: ${props => props.food ? "700" : "500"};
-    color: #F6F6F6;
+    line-height: 38px;
+    font-weight: normal;
+    letter-spacing: 0.2px;
 
 `
-

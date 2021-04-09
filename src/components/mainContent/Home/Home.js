@@ -7,9 +7,7 @@ export const Home = () => {
     <S.Container>
       <S.Wrapper>
         <S.SubTitle food>Food App</S.SubTitle>
-        <S.Title>
-          Why stay hungry when you can order form Bella Onojie
-        </S.Title>
+        <S.Title>Why stay hungry when you can order form Bella Onojie</S.Title>
         <S.SubTitle>Download the bella onoje’s food app now on</S.SubTitle>
         <div>
           <Button>Playstore</Button>

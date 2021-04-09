@@ -2,14 +2,13 @@ import styled from "styled-components";
 import firtImage from "../../../Assets/fristImage.png";
 
 export const Container = styled.section`
-  width: 100%;
+  width: 100vw;
   height: 80vh;
   background: url(${firtImage}) no-repeat;
   background-size: cover;
 
   @media (max-width: 800px) {
     background: #fafafa;
-
   }
 `;
 
@@ -19,6 +18,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   height: 80%;
+  width: 100vw;
 `;
 
 export const Title = styled.h1`
@@ -35,6 +35,7 @@ export const Title = styled.h1`
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.2px;
+    /* width: 86vw; */
   }
 `;
 
@@ -45,9 +46,11 @@ export const SubTitle = styled.h3`
   color: #f6f6f6;
   letter-spacing: 0.2px;
   @media (max-width: 800px) {
-      color: #737373;
-      letter-spacing: 0.1px;
-      font-size: 16px;
-      line-height: 24px;
+    color: #737373;
+    letter-spacing: 0.1px;
+    font-size: ${(props) => (props.food ? "16px" : "24px")}
+    line-height: 24px;
+    width: 60vw;
+    text-align: center;
   }
 `;

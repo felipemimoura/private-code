@@ -9,6 +9,8 @@ export const Container = styled.section`
   margin-top: 20px;
   @media (max-width: 800px) {
     flex-direction: column;
+
+    /* width: 86vw; */
   }
 `;
 

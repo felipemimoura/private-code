@@ -7,6 +7,7 @@ import DownloadMobile from './mainContent/DownloadMobile/DownloadMobile'
 import Explore from './mainContent/Explore/Explore'
 import Feed from './mainContent/Feed/Feed'
 import { Home } from './mainContent/Home/Home'
+import {Title}from './styles/styles'
 
 export const Main = () => {
     const {width} = useViewport()
@@ -16,6 +17,7 @@ export const Main = () => {
         <main>
             <Home />
             <Feed />
+            <Title>How the app works</Title>
             <Create />
             <Explore/>
             <Checkout/>

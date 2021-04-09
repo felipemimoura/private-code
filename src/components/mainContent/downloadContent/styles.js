@@ -7,7 +7,6 @@ export const Container = styled.section`
   background: url(${download}) no-repeat;
   background-size: cover;
 
-
 `;
 
 export const Wrapper = styled.div`
@@ -16,7 +15,6 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   height: 80%;
-
 `;
 
 export const Title = styled.h1`
@@ -25,8 +23,6 @@ export const Title = styled.h1`
   line-height: 57px;
   letter-spacing: 0.2;
   font-weight: bold;
-
-  
 `;
 
 export const Paragraph = styled.p`

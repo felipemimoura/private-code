@@ -13,13 +13,14 @@ export const Button = styled.button`
   font-weight: bold;
   margin-right: 2vw;
 
-  @media(max-width: 800px){
+  @media (max-width: 800px) {
     display: block;
-    color:  ${(props) => (props.apple ? "#fa400c" : "white")};
+    color: ${(props) => (props.apple ? "#fa400c" : "white")};
     border: ${(props) =>
-    props.apple
-      ? "0.5px solid rgba(183,50,39 ,0.8) "
-      : "0.5px solid rgba(183,50,39, 0.2)"};
-    margin-bottom: 2vw
+      props.apple
+        ? "0.5px solid rgba(183,50,39 ,0.8) "
+        : "0.5px solid rgba(183,50,39, 0.2)"};
+    margin-bottom: 2vw;
+    margin-right: 0px;
   }
 `;

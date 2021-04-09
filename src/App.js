@@ -1,14 +1,16 @@
 
 import { GlobalStyles } from './styles/global';
 import Header from './components/Header';
+import { Main } from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <GlobalStyles />
-      {/* Navegação */}
       <Header />
-      <h1>Teste</h1>
+      <Main />
+      <Footer />
     </>
   );
 }
